@@ -1,0 +1,107 @@
+ 
+ ​*​ { 
+ ​    ​margin​:​ ​0​; 
+ ​    ​padding​:​ ​0​; 
+ ​    ​box-sizing​:​ border-box; 
+ ​} 
+  
+ ​body​{ 
+ ​    ​height​:​ ​100​%​; 
+ ​    ​background-color​:​ ​#​111​; 
+ ​    ​box-sizing​:​ border-box; 
+ ​} 
+  
+ ​h1​ { 
+ ​        ​color​:​ ​#​fff​; 
+ ​        ​font-size​:​ ​3​rem​; 
+ ​        ​font-weight​:​ ​50​; 
+ ​        ​text-align​:​ center; 
+ ​        ​margin​:​ ​1​rem​ ​0​ ​3​rem​;  
+ ​        ​font-family​:​ ​'Hind'​,​ sans-serif; 
+ ​} 
+  
+ ​.​title​{ 
+ ​        ​color​:​ lime; 
+ ​        ​text-transform​:​ uppercase; 
+ ​        ​font-weight​:​ ​800​; 
+ ​} 
+  
+ ​.​inputDiv​{ 
+ ​        ​display​:​ flex; 
+ ​        ​justify-content​:​ center; 
+ ​        ​align-items​:​ center; 
+ ​} 
+  
+ ​.​input​{ 
+ ​    ​padding​:​ ​0.5​rem​ ​1​rem​; 
+ ​    ​outline​:​ none; 
+ ​    ​border​:​ none; 
+ ​    ​height​:​ ​50​px​; 
+ ​    ​border-radius​:​ ​25​px​; 
+ ​    ​width​:​ ​350​px​; 
+ ​    ​margin​:​ ​0.25​rem​; 
+ ​    ​transition​:​ ​.5​s​; 
+ ​    ​font-size​:​ ​1.15​rem​; 
+ ​} 
+  
+ ​.​add​{ 
+ ​        ​outline​:​ none; 
+ ​    ​border​:​ none; 
+ ​    ​height​:​ ​50​px​; 
+ ​    ​border-radius​:​ ​25​px​; 
+ ​    ​width​:​ ​50​px​; 
+ ​    ​background-color​:​ lime; 
+ ​    ​color​:​ white; 
+ ​    ​cursor​:​ pointer; 
+ ​    ​transition​:​ ​.5​s​; 
+ ​    ​margin​:​ ​0.25​rem​; 
+ ​} 
+  
+ ​.​add​:​hover​{ 
+ ​        ​opacity​:​ ​0.7​; 
+ ​} 
+  
+ ​.​container​{ 
+ ​        ​display​:​ flex; 
+ ​        ​flex-direction​:​ column; 
+ ​        ​justify-content​:​ center; 
+ ​        ​align-items​:​ center; 
+ ​        ​text-align​:​ center; 
+ ​        ​margin-top​:​ ​2​rem​; 
+ ​} 
+  
+ ​.​item​{ 
+ ​        ​padding​:​ ​0.5​rem​; 
+ ​        ​border-bottom​:​ ​4​px​ solid ​#​fff​; 
+ ​        ​margin-bottom​:​ ​1.5​rem​; 
+ ​} 
+  
+ ​.​item_input​{ 
+ ​        ​background​:​ none; 
+ ​        ​outline​:​ none; 
+ ​        ​border​:​ none; 
+ ​        ​color​:​ ​#​fff​; 
+ ​        ​font-size​:​ ​1.4​rem​; 
+ ​        ​width​:​ ​245​px​; 
+ ​} 
+  
+ ​.​edit​{ 
+ ​        ​background​:​ none; 
+ ​        ​outline​:​ none; 
+ ​        ​border​:​ none; 
+ ​        ​color​:​ lime; 
+ ​        ​font-size​:​ ​1.4​rem​; 
+ ​        ​font-family​:​ ​'Hind'​,​ sans-serif; 
+ ​        ​margin​:​ ​0​ ​0.5​rem​; 
+ ​        ​cursor​:​ pointer; 
+ ​} 
+  
+ ​.​remove​{ 
+ ​        ​background​:​ none; 
+ ​        ​outline​:​ none; 
+ ​        ​border​:​ none; 
+ ​        ​color​:​ ​#​E00​; 
+ ​        ​font-size​:​ ​1.4​rem​; 
+ ​        ​font-family​:​ ​'Hind'​,​ sans-serif; 
+ ​        ​cursor​:​ pointer; 
+ ​}
